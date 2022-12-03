@@ -1,0 +1,150 @@
+body{
+    background-color:#f0ece2;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .navbar {
+    background-color:#c7b198;
+  }
+
+ 
+  .navbar-left ul,
+  .navbar-right ul {
+    list-style: none;
+    margin-bottom:40px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+
+
+  .navbar-left ul {
+    margin-left:450%;
+    margin-top: 50px;
+
+  }
+  .navbar-left ul li a,
+  .navbar-right ul li a {
+    text-decoration: none;
+    color: #596e79;
+    border: 0px ;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+.col-md-3,.col-md-4,.col-md-2,.col-md-3{
+    padding-bottom:10px;
+}
+
+
+  .pattern-4{
+    
+    background-color:#f5f1da;
+    margin-right:200px;
+    margin-left:200px;
+    margin-top:0;
+    padding:30px 24px 350px 200px;
+
+  }
+
+  li, h1{
+    list-style-type: none;
+    
+  }
+  .title{
+    margin-bottom: 40px;
+
+  }
+
+  .view {
+    background-size: cover;
+    height: 100vh;
+    
+   
+  }
+
+  .full-bg-img {
+    color: #596e79;
+   
+  }
+
+  
+  .payment .fa:not(:first-child) {
+    margin-left: 10px;
+    color: #596e79;
+    margin-top: 30px;
+
+  }
+
+  .btn-danger{
+    padding-top:0;
+    margin-top:40px;
+  }
+
+  footer{
+   
+    background-color:#c7b198;
+    margin-top: 2rem;
+    padding-top:-30px;
+    padding-bottom:50px;
+
+  }
+
+  footer ul{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left:500px;
+
+  }
+
+  .nav-link i{
+    background-color:#c7b198;;
+    margin-left: 10px;
+    height:40px;
+    width:40px;
+  }
+
+  footer .fa-facebook , footer .fa-twitter,footer .fa-instagram{
+    font-size: 30px;
+    color: #f5f1da;
+  }
+
+  @media (max-width: 640px) {
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+  .pattern-4{
+    background-color:#f0ece2;
+    margin-right:20px;
+    margin-left:20px;
+    margin-top:0;
+    --padding:30px 24px 350px 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 420px) {
+}
+
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 569px) {
+}
+
+@media screen and (max-width: 410px) {
+
+}

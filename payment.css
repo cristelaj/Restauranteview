@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .navbar {
+    background-color:#c7b198;
+  }
+
+ 
+  .navbar-left ul,
+  .navbar-right ul {
+    list-style: none;
+    margin-bottom:40px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+
+
+  .navbar-left ul {
+    margin-left:450%;
+    margin-top: 50px;
+
+  }
+  .navbar-left ul li a,
+  .navbar-right ul li a {
+    text-decoration: none;
+    color: #596e79;
+    border: 0px ;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  form{
+    margin-top: 30px;
+  }
+
+  @media (max-width: 640px) {
+
+
+
+}
+
+@media screen and (max-width: 1025px) {
+ 
+}
+

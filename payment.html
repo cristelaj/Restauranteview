@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel ="stylesheet" href="./payment.css">
+    <script src="index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-dark ">
+        <div class="container">
+  
+          <nav>
+              <img src="./ImgLogos/LogoMakr-5Fiwpo.png "alt="menu" class="menu">
+                  <div class="navbar-left">
+                      <ul>
+                          <li>
+                              <a href="./RestaurantePequeno.html">Home</a>
+                          </li>
+                          <li>
+                              <a href="./domicilioPage.html">Domicilio</a>
+                          </li>
+                      </ul>
+                  </div>
+          </nav>
+        </div>
+      </nav>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <!-- Identify your business so that you can collect the payments. --> 
+        <input type="hidden" name="business" value="herschelgomez@xyzzyu.com"> 
+        <!-- Specify a Buy Now button. --> <input type="hidden" name="cmd" value="_xclick"> 
+        <!-- Specify details about the item that buyers will purchase. --> 
+        <input type="hidden" name="item_name" value="Hot Sauce-12oz. Bottle"> <input type="hidden" name="amount" value="5.95"> 
+        <input type="hidden" name="currency_code" value="USD"> 
+        <!-- Display the payment button. --> <input type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Buy Now"> <img alt="" border="0" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+      </form>
+
+</body>
+</html>
